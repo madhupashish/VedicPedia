@@ -1,12 +1,13 @@
-import { AccordionDemo } from "../faqs/page";
+
 import { Card } from "../../../components/ui/card";
+import AccordionDemo from "../faqs/page";
 
 const FaqsArticles = () => {
     return (
         <div className="w-full flex flex-col lg:flex-row justify-center items-center gap-7 p-4">
             <div className="w-full lg:w-2/5 min-h-screen bg-[#713700ea] p-5 rounded-lg">
                 <h1 className="text-lg text-[#EDE6D6] font-semibold text-center p-5">Frequently Asked Questions</h1>
-                <AccordionDemo />
+                <AccordionDemo/>
             </div>
 
             <div className="w-full lg:w-3/5">
