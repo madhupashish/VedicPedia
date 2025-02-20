@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import HeroSection from "./page-ui/hero/page"
 import FourVedas from "./page-ui/fourvedas/page"
 import AskYourQuestion from './page-ui/yourquestion/page'
